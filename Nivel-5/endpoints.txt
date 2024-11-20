@@ -1,0 +1,7 @@
+Endpoints Disponíveis:
+POST /api/auth/register - Registrar um novo usuário
+POST /api/auth/login - Autenticar um usuário e obter um token JWT
+GET /api/profile - Obter os dados do usuário autenticado
+GET /api/users - Obter todos os usuários (apenas para administradores)
+POST /api/contracts - Criar um novo contrato (apenas para administradores)
+GET /api/contracts - Obter contratos existentes (apenas para administradores)
